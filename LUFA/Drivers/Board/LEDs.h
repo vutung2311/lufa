@@ -296,7 +296,8 @@
 		 *
 		 *  \return Mask of \c LEDS_LED* constants indicating which of the board LEDs are currently turned on.
 		 */
-		static inline uint_reg_t LEDs_GetLEDs(void) ATTR_WARN_UNUSED_RESULT;
+		ATTR_WARN_UNUSED_RESULT
+		static inline uint_reg_t LEDs_GetLEDs(void);
 	#endif
 
 #endif
